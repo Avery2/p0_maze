@@ -1,0 +1,127 @@
+Do you want to see the tutorial?
+  [y]es
+  [n]o
+> badinput
+Must respond yes (y) or no (n)
+> y
+
+Welcome to the room explorer tutorial.
+
+This is an example room with a hallway to the right called room 0:
+
+ ┌───┐
+ │ 0 ├─
+ └───┘
+
+You can navigate to the right by typing w, a, s, d when prompted. Your goal is to reach the final room marked with an X:
+
+ ┌───┐
+ │ X │
+ └───┘
+
+Have fun!
+
+Do you have an input file? (it's probably named "output.txt" if you've played before)
+  [y]es
+  [n]o
+> y
+Enter the name of your input file:
+> input.txt
+Welcome back Username!
+
+  ┌─┴─┐
+ ─┤ 1 ├─
+  └─┬─┘
+
+Move which direction?
+  [w] up
+  [s] down
+  [a] left
+  [d] right
+> w
+
+
+  ┌─┴─┐
+  │ 2 │
+  └─┬─┘
+
+Move which direction?
+  [w] up
+  [s] down
+  [ ]
+  [ ]
+> d
+No room to the right.
+> s
+
+
+  ┌─┴─┐
+ ─┤ 1 ├─
+  └─┬─┘
+
+Move which direction?
+  [w] up
+  [s] down
+  [a] left
+  [d] right
+> d
+
+
+  ┌───┐
+ ─┤ 8 ├─
+  └───┘
+
+Move which direction?
+  [ ]
+  [ ]
+  [a] left
+  [d] right
+> d
+
+
+  ┌───┐
+ ─┤ X │
+  └───┘
+
+You win!
+Play again?
+  [y]es
+  [n]o
+> y
+
+  ┌─┴─┐
+ ─┤ 1 ├─
+  └─┬─┘
+
+Move which direction?
+  [w] up
+  [s] down
+  [a] left
+  [d] right
+> d
+
+
+  ┌───┐
+ ─┤ 8 ├─
+  └───┘
+
+Move which direction?
+  [ ]
+  [ ]
+  [a] left
+  [d] right
+> d
+
+
+  ┌───┐
+ ─┤ X │
+  └───┘
+
+You win!
+Play again?
+  [y]es
+  [n]o
+> n
+Thanks for playing Username.
+You have 2 total wins!
+Your information has been saved to the file named output.txt
